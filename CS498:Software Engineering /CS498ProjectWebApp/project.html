@@ -1,0 +1,24 @@
+<!--Project.html: Sets up our webpage. Not a whole lot to say here: just does a lot of formatting for the look of our website. -->
+
+<html>
+    <head> 
+        <link rel="stylesheet" type="text/css" href="stylesheet.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto:400,900" rel="stylesheet">
+    </head>
+    <div class="leftContainer"> 
+        <img class="backgroundImage" src="backgroundImage.svg">
+    </div>
+    <div class="rightContainer">
+        <h1 class="pageTitle"> RateMyCourse </h1>
+        <br><br><br><br>
+        
+        <form class="form" action="/home.php" method="get">
+            <h4 class="greetingLabel"> Welcome back to RateMyCourse </h4>
+            <input class="textField" type="text" id="username" placeholder="username">
+            <br> <br> 
+            <input class="textField" type="password" id="password" placeholder="password">
+            <br> <br> <br>    
+            <input class="loginButton" type="submit" id="submit" name="submit" value="Login">
+        </form>
+    </div>
+</html>

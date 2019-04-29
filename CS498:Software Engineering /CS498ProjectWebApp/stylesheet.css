@@ -1,0 +1,85 @@
+/*Stylesheet.css: handles the basic formatting and style of project.html. */
+
+.leftContainer {
+    float: left;
+    background-color: #F2F2F2;
+    width: 50%;
+    height: 100%;
+}
+
+.rightContainer {
+    float: right;
+    width: 50%;
+    height: 100%;
+    position: relative;
+    background-color: #F2F2F2; 
+/*    #D0CFD7*/
+}
+
+.rightContainer form {
+    
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+/*    margin: auto;*/
+    transform: translate(-50%, -50%);
+}
+
+.pageTitle {
+    margin-top: 60;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: #2F2E41;
+}
+
+.textField {
+    padding: 10px;
+    width: 80%;
+    height: 40px;
+    border: 0.75px solid #CECDCE;
+    border-radius: 7px;
+    background-color: #FDF9F5;
+    left: 50%;
+    top: 50%;
+    transform: translate(12%, 50%);
+    margin: auto;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.backgroundImage {
+    height: 100%;
+    width: 100%;
+}
+
+.loginButton {
+    width: 80%;
+    height: 45px;
+    background-color: #675FF4;
+    border-radius: 7px;
+    border-style: none;
+    left: 50%;
+    top: 50%;
+    margin: 0;
+    transform: translate(12%, 50%);
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+    color: #F2F2F2;
+}
+
+::placeholder {
+    color: #D0CFD7;
+    opacity: 1;
+}
+
+.greetingLabel {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
